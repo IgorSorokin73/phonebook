@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body.modal-open {
+	overflow: hidden;
+}
+
+
+.phone {
+    width: 400px;
+    height: 700px;
+    border: 1px solid #000;
+    margin: 50px auto;
+    position: relative;
+}
+
+.phone-top {
+    height: 80px;
+    border-bottom: 1px solid #000;
+}
+
+.phone-top-inner-icon {
+    padding-top: 5px;
+}
+
+.phone-top-inner {
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+}
+
+.top-input {
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+}
+
+.phone-content {
+
+    overflow-y: scroll;
+	overflow-x: hidden;
+	height: 500px;
+}
+
+.phone-item {
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.phone-item-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.phone-item-data {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    gap: 5px;
+}
+
+.phone-item-name {
+    font-size: 24px;
+}
+
+.phone-item-phone {
+    font-size: 24px;
+}
+
+.phone-item-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-item-delete {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.phone-item-favourite {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button-img, .button-love {
+    width: 30px;
+    height: 30px;
+}
+
+
+.phone-footer {
+    height: 80px;
+    border-top: 1px solid #000;
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+}
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+.footer-btn {
+    font-size: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.add-modal {
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0,0,0, .9);
+	overflow: hidden;
+    display: none; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.add-top-inner {
+    display: flex;
+    align-items: center;
+}
+
+.add-top-inner-text {
+    font-size: 16px; 
+    color: white; 
+}
+
+.span-name {
+    font-size: 24px; 
+    color: white;
+}
+
+.span-favourite {
+    display: inline-block; margin-right: 5px; color: white; font-size: 24px;
+}
+
+.input-favourite {
+    width: 20px; 
+    height: 20px;
+}
+
+.input-phone {
+    margin-bottom: 10px; 
+    border-radius: 20px; 
+    width: 300px; 
+    height: 40px; 
+    padding: 10px; 
+    outline: none;
+}
